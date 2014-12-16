@@ -12,4 +12,4 @@ solder them to a 5 mm IR LED (e.g., [Digikey part 751-1210](http://www.digikey.c
 
 We have ordered interface boards to be manufactured by Seeed Studio, using their PCBA service, at a cost of ~$2/unit.
 
-!()[RewardWell.jpg]
+![](RewardWell.jpg)
