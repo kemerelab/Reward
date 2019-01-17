@@ -1,0 +1,10 @@
+Item,Purpose,Manufacturer,Manufacturer Part #,Distributor,Distributor Part #,Description,Web link
+IR LED,Component for beam break system,Vishay Semiconductor,TSHF5210,Digikey,751-1210-ND,Emitter IR 890 nm 100 ma radial,https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/TSHF5210/751-1210-ND/1681345
+IR photodiode,Component for beam break system,Vishay Semiconductor,SFH 313FA,Digikey,475-1080-ND,Phototransistor NPN 870 nm w/fltr,https://www.digikey.com/short/7zhpv2
+Luer Connection,Interface between reward well and tubing,"Value Plastics, Inc.",,Nordson Medical,KFTLL-1,Female Luer Thread with 1/4” Hex to 10-32 UNF Thread,https://www.nordsonmedical.com/Shop/Fluid-Management/Products/KFTLL-1
+4-hole connector,Connection to syringe pump,"Molex, LLC.",3091042,Digikey,WM1333-ND,Conn Receptacle 4Pos 0.093,https://www.digikey.com/product-detail/en/molex-llc/0003091042/WM1333-ND/61324
+Crimp pins,Pins for 4-hole connector,"Molex, LLC.",02-09-1104,Digikey,WM1101-ND,Conn Socket 14-20 AWG Crimp Tin,https://www.digikey.com/product-detail/en/molex-llc/02-09-1104/WM1101-ND/26386
+,,,,,,,
+Other (don’t need specific part),,,,,,,
+3.5 mm stereo audio cables,,,,,,,
+Arduino,,,,,,,
