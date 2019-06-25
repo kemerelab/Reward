@@ -1,0 +1,5 @@
+foodwell_all.SLDPRT           - Solidworks file for food well
+foodwell_endcap.SLDPRT        - Solidworks file for end caps
+foodwell-with endcaps.SLDASM  - Solidworks file containing both well and caps
+foodwell-with endcaps.STL     - STL file for manufacturing
+
