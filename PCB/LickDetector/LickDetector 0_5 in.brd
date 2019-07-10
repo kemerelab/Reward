@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -158,39 +158,41 @@
 </layers>
 <board>
 <plain>
-<wire x1="30" y1="2" x2="30" y2="24" width="0" layer="20"/>
-<wire x1="30" y1="24" x2="28" y2="26" width="0" layer="20" curve="90"/>
-<wire x1="28" y1="26" x2="24.5" y2="26" width="0" layer="20"/>
-<wire x1="24.5" y1="26" x2="24.5" y2="55.5" width="0" layer="20"/>
-<wire x1="24.5" y1="55.5" x2="24" y2="56" width="0" layer="20" curve="90"/>
-<wire x1="24" y1="56" x2="22.4" y2="56" width="0" layer="20"/>
-<wire x1="22.4" y1="56" x2="21.9" y2="55.5" width="0" layer="20" curve="90"/>
-<wire x1="21.9" y1="55.5" x2="21.9" y2="26" width="0" layer="20"/>
-<wire x1="30" y1="2" x2="28" y2="0" width="0" layer="20" curve="-90"/>
-<wire x1="21.9" y1="26" x2="8.1" y2="26" width="0" layer="20"/>
-<wire x1="8.1" y1="26" x2="8.1" y2="55.5" width="0" layer="20"/>
-<wire x1="8.1" y1="55.5" x2="7.6" y2="56" width="0" layer="20" curve="90"/>
-<wire x1="7.6" y1="56" x2="6" y2="56" width="0" layer="20"/>
-<wire x1="6" y1="56" x2="5.5" y2="55.5" width="0" layer="20" curve="90"/>
-<wire x1="5.5" y1="55.5" x2="5.5" y2="26" width="0" layer="20"/>
-<wire x1="5.5" y1="26" x2="2" y2="26" width="0" layer="20"/>
-<wire x1="2" y1="26" x2="0" y2="24" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="24" x2="0" y2="2" width="0" layer="20"/>
-<wire x1="0" y1="2" x2="2" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="2" y1="0" x2="28" y2="0" width="0" layer="20"/>
+<wire x1="30" y1="2" x2="30" y2="24" width="0.254" layer="20"/>
+<wire x1="30" y1="24" x2="28" y2="26" width="0.254" layer="20" curve="90"/>
+<wire x1="28" y1="26" x2="24.5" y2="26" width="0.254" layer="20"/>
+<wire x1="24.5" y1="26" x2="24.5" y2="55.5" width="0.254" layer="20"/>
+<wire x1="24.5" y1="55.5" x2="24" y2="56" width="0.254" layer="20" curve="90"/>
+<wire x1="24" y1="56" x2="22.4" y2="56" width="0.254" layer="20"/>
+<wire x1="22.4" y1="56" x2="21.9" y2="55.5" width="0.254" layer="20" curve="90"/>
+<wire x1="21.9" y1="55.5" x2="21.9" y2="26" width="0.254" layer="20"/>
+<wire x1="30" y1="2" x2="28" y2="0" width="0.254" layer="20" curve="-90"/>
+<wire x1="21.9" y1="26" x2="8.1" y2="26" width="0.254" layer="20"/>
+<wire x1="8.1" y1="26" x2="8.1" y2="55.5" width="0.254" layer="20"/>
+<wire x1="8.1" y1="55.5" x2="7.6" y2="56" width="0.254" layer="20" curve="90"/>
+<wire x1="7.6" y1="56" x2="6" y2="56" width="0.254" layer="20"/>
+<wire x1="6" y1="56" x2="5.5" y2="55.5" width="0.254" layer="20" curve="90"/>
+<wire x1="5.5" y1="55.5" x2="5.5" y2="26" width="0.254" layer="20"/>
+<wire x1="5.5" y1="26" x2="2" y2="26" width="0.254" layer="20"/>
+<wire x1="2" y1="26" x2="0" y2="24" width="0.254" layer="20" curve="90"/>
+<wire x1="0" y1="24" x2="0" y2="2" width="0.254" layer="20"/>
+<wire x1="0" y1="2" x2="2" y2="0" width="0.254" layer="20" curve="90"/>
+<wire x1="2" y1="0" x2="28" y2="0" width="0.254" layer="20"/>
 <hole x="4" y="22" drill="3.1"/>
 <hole x="26" y="22" drill="3.1"/>
 <hole x="4" y="4" drill="3.1"/>
 <hole x="26" y="4" drill="3.1"/>
 <text x="17.6" y="6.4" size="1.778" layer="26" rot="MR90">Lick Detector
-v1.3 6/2019
+v1.4 7/2019
 Kemere Lab</text>
-<text x="28.6" y="7.8" size="1.27" layer="25" rot="R180">SIG</text>
-<text x="24.8" y="13.2" size="1.27" layer="25" rot="R180">VCC</text>
-<text x="28.8" y="19.4" size="1.27" layer="25" rot="R180">GND</text>
+<text x="25" y="10" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="center-left">SIG</text>
+<text x="25" y="12.4" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="center-left">VCC</text>
+<text x="25.2" y="15" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="center-left">GND</text>
 <text x="4.6" y="2" size="1.27" layer="25" rot="R180">SDG</text>
 <text x="6.4" y="8.4" size="1.778" layer="25" font="vector" ratio="16" rot="R90" align="bottom-center">-LED+</text>
 <text x="6.4" y="17" size="1.778" layer="25" font="vector" ratio="16" rot="R90" align="bottom-center">-Q+</text>
+<text x="28.6" y="7" size="0.7" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center">SIG</text>
+<text x="28.6" y="18.2" size="0.7" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center">VCC</text>
 </plain>
 <libraries>
 <library name="74xx-little-de" urn="urn:adsk.eagle:library:86">
@@ -201,44 +203,35 @@ TinyLogic(R) from FAIRCHILD Semiconductor TM
 &lt;author&gt;Created by evgeni@eniks.com&lt;/author&gt;&lt;br&gt;
 &lt;author&gt;Extended by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SOT23-5" urn="urn:adsk.eagle:footprint:2364/1" library_version="3">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
-SOT753 - Philips Semiconductors&lt;br&gt;
+<package name="SC70-5" urn="urn:adsk.eagle:footprint:2365/1" library_version="3">
+<description>&lt;b&gt;SMT SC70-5&lt;/b&gt;&lt;p&gt;
+SOT353 - Philips Semiconductors&lt;br&gt;
 Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_HCT1G66_3.pdf</description>
-<wire x1="0" y1="-1.29" x2="0" y2="-1.3" width="0.01" layer="21"/>
-<wire x1="1.42" y1="0.8" x2="1.42" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="1.42" y1="-0.8" x2="-1.42" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="-1.42" y1="-0.8" x2="-1.42" y2="0.8" width="0.127" layer="21"/>
-<wire x1="-1.42" y1="0.8" x2="1.42" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-1.27" y1="0.65" x2="1.28" y2="0.65" width="0.075" layer="21"/>
-<wire x1="1.28" y1="0.65" x2="1.28" y2="-0.66" width="0.075" layer="21"/>
-<wire x1="1.28" y1="-0.66" x2="-1.27" y2="-0.66" width="0.075" layer="21"/>
-<wire x1="-1.27" y1="-0.66" x2="-1.27" y2="0.65" width="0.075" layer="21"/>
-<wire x1="-1.75" y1="2.25" x2="1.75" y2="2.25" width="0.254" layer="39"/>
-<wire x1="1.75" y1="2.25" x2="1.75" y2="-2.25" width="0.254" layer="39"/>
-<wire x1="1.75" y1="-2.25" x2="-1.75" y2="-2.25" width="0.254" layer="39"/>
-<wire x1="-1.75" y1="-2.25" x2="-1.75" y2="2.25" width="0.254" layer="39"/>
-<smd name="1" x="-0.95" y="-1.29" dx="0.69" dy="0.99" layer="1"/>
-<smd name="2" x="0" y="-1.29" dx="0.69" dy="0.99" layer="1"/>
-<smd name="3" x="0.95" y="-1.29" dx="0.69" dy="0.99" layer="1"/>
-<smd name="4" x="0.95" y="1.3" dx="0.69" dy="0.99" layer="1"/>
-<smd name="5" x="-0.95" y="1.3" dx="0.69" dy="0.99" layer="1"/>
-<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.11" y1="0.68" x2="-0.78" y2="1.43" layer="51"/>
-<rectangle x1="0.79" y1="0.67" x2="1.12" y2="1.42" layer="51"/>
-<rectangle x1="-1.11" y1="-1.42" x2="-0.78" y2="-0.67" layer="51"/>
-<rectangle x1="-0.16" y1="-1.42" x2="0.17" y2="-0.67" layer="51"/>
-<rectangle x1="0.79" y1="-1.42" x2="1.12" y2="-0.67" layer="51"/>
+<wire x1="1" y1="0.55" x2="-1" y2="0.55" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.55" x2="-1" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.55" x2="1" y2="-0.55" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.55" x2="1" y2="0.55" width="0.127" layer="21"/>
+<smd name="1" x="-0.65" y="-0.85" dx="0.4" dy="0.7" layer="1"/>
+<smd name="2" x="0" y="-0.85" dx="0.4" dy="0.7" layer="1"/>
+<smd name="3" x="0.65" y="-0.85" dx="0.4" dy="0.7" layer="1"/>
+<smd name="4" x="0.65" y="0.85" dx="0.4" dy="0.7" layer="1"/>
+<smd name="5" x="-0.65" y="0.85" dx="0.4" dy="0.7" layer="1"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.125" y1="-1.05" x2="0.125" y2="-0.6" layer="51"/>
+<rectangle x1="-0.775" y1="-1.05" x2="-0.525" y2="-0.6" layer="51"/>
+<rectangle x1="0.525" y1="-1.05" x2="0.775" y2="-0.6" layer="51"/>
+<rectangle x1="-0.775" y1="0.6" x2="-0.525" y2="1.05" layer="51"/>
+<rectangle x1="0.525" y1="0.6" x2="0.775" y2="1.05" layer="51"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT23-5" urn="urn:adsk.eagle:package:2406/2" type="model" library_version="3">
-<description>Small Outline Transistor
-SOT753 - Philips Semiconductors
+<package3d name="SC70-5" urn="urn:adsk.eagle:package:2405/2" type="model" library_version="3">
+<description>SMT SC70-5
+SOT353 - Philips Semiconductors
 Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_HCT1G66_3.pdf</description>
 <packageinstances>
-<packageinstance name="SOT23-5"/>
+<packageinstance name="SC70-5"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -271,6 +264,22 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <rectangle x1="0.525" y1="0.35" x2="0.85" y2="0.775" layer="21"/>
 <rectangle x1="-0.175" y1="0" x2="0.175" y2="0.35" layer="21"/>
 </package>
+<package name="CHIP-LED0603" urn="urn:adsk.eagle:footprint:15671/1" library_version="4">
+<description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
+LB Q993&lt;br&gt;
+Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
+<wire x1="-0.4" y1="0.45" x2="-0.4" y2="-0.45" width="0.1016" layer="51"/>
+<wire x1="0.4" y1="0.45" x2="0.4" y2="-0.45" width="0.1016" layer="51"/>
+<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<text x="-0.635" y="-0.635" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.905" y="-0.635" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.45" y1="0.45" x2="0.45" y2="0.85" layer="51"/>
+<rectangle x1="-0.45" y1="-0.85" x2="0.45" y2="-0.45" layer="51"/>
+<rectangle x1="-0.45" y1="0" x2="-0.3" y2="0.3" layer="21"/>
+<rectangle x1="0.3" y1="0" x2="0.45" y2="0.3" layer="21"/>
+<rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="CHIPLED_1206" urn="urn:adsk.eagle:package:15823/2" type="model" library_version="4">
@@ -278,6 +287,14 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <packageinstances>
 <packageinstance name="CHIPLED_1206"/>
+</packageinstances>
+</package3d>
+<package3d name="CHIP-LED0603" urn="urn:adsk.eagle:package:15819/3" type="model" library_version="4">
+<description>Hyper CHIPLED Hyper-Bright LED
+LB Q993
+Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
+<packageinstances>
+<packageinstance name="CHIP-LED0603"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -498,7 +515,7 @@ CONN_02
 </package3d>
 </packages3d>
 </library>
-<library name="rcl" urn="urn:adsk.eagle:library:334">
+<library name="resistor" urn="urn:adsk.eagle:library:348">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
 &lt;ul&gt;
@@ -516,13 +533,33 @@ for Electrolyt Capacitors see also :&lt;p&gt;
 www.bccomponents.com &lt;p&gt;
 www.panasonic.com&lt;p&gt;
 www.kemet.com&lt;p&gt;
-http://www.secc.co.jp/pdf/os_e/2004/e_os_all.pdf &lt;b&gt;(SANYO)&lt;/b&gt;
 &lt;p&gt;
 for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trimpotcrossref.asp&lt;/u&gt;&lt;p&gt;
 
-&lt;table border=0 cellspacing=0 cellpadding=0 width="100%" cellpaddding=0&gt;
+&lt;map name="nav_main"&gt;
+&lt;area shape="rect" coords="0,1,140,23" href="../military_specs.asp" title=""&gt;
+&lt;area shape="rect" coords="0,24,140,51" href="../about.asp" title=""&gt;
+&lt;area shape="rect" coords="1,52,140,77" href="../rfq.asp" title=""&gt;
+&lt;area shape="rect" coords="0,78,139,103" href="../products.asp" title=""&gt;
+&lt;area shape="rect" coords="1,102,138,128" href="../excess_inventory.asp" title=""&gt;
+&lt;area shape="rect" coords="1,129,138,150" href="../edge.asp" title=""&gt;
+&lt;area shape="rect" coords="1,151,139,178" href="../industry_links.asp" title=""&gt;
+&lt;area shape="rect" coords="0,179,139,201" href="../comments.asp" title=""&gt;
+&lt;area shape="rect" coords="1,203,138,231" href="../directory.asp" title=""&gt;
+&lt;area shape="default" nohref&gt;
+&lt;/map&gt;
+
+&lt;html&gt;
+
+&lt;title&gt;&lt;/title&gt;
+
+ &lt;LINK REL="StyleSheet" TYPE="text/css" HREF="style-sheet.css"&gt;
+
+&lt;body bgcolor="#ffffff" text="#000000" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0"&gt;
+&lt;table border=0 cellspacing=0 cellpadding=0 width="100%" cellpaddding=0 height="55%"&gt;
 &lt;tr valign="top"&gt;
 
+&lt;/td&gt;
 &lt;! &lt;td width="10"&gt;&amp;nbsp;&lt;/td&gt;
 &lt;td width="90%"&gt;
 
@@ -1545,9 +1582,10 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;P&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
-&lt;/table&gt;</description>
+&lt;/table&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;</description>
 <packages>
-<package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" library_version="10">
+<package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" library_version="3">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
@@ -1565,7 +1603,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 <packages3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model" library_version="10">
+<package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model" library_version="3">
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R0603"/>
@@ -1760,8 +1798,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:2406/2" value="74AHC1G14DBV" x="13.38" y="16.58" smashed="yes" rot="R180">
-<attribute name="VALUE" x="21.12" y="21.39" size="1.27" layer="27" rot="R180"/>
+<element name="IC1" library="74xx-little-de" library_urn="urn:adsk.eagle:library:86" package="SC70-5" package3d_urn="urn:adsk.eagle:package:2405/2" value="74AHC1G14DCK" x="14.18" y="16.78" smashed="yes" rot="R180">
+<attribute name="VALUE" x="17.52" y="14.79" size="0.7" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="" x="23.2" y="53.05" smashed="yes" rot="MR180">
 <attribute name="NAME" x="23.73" y="49.72" size="1.27" layer="26" rot="MR270"/>
@@ -1776,15 +1814,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="6.35" y="47.3" size="1.27" layer="26" rot="MR90"/>
 <attribute name="PACKAGE" value="1206 Osram Opto" x="-5.9" y="79.72" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="" x="20.5" y="16.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.63" y="13.37" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="R" x="20.5" y="16.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="17.96" y="17.77" size="1.27" layer="27" rot="R270"/>
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="" x="20.85" y="21.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.865" y="23.285" size="1.27" layer="25"/>
+<attribute name="VALUE" x="21.485" y="23.805" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="" x="9.5" y="16.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.57" y="14.43" size="1.27" layer="25" rot="R180"/>
-<attribute name="SPICEPREFIX" value="R" x="9.5" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="12.04" y="15.23" size="1.27" layer="27" rot="R90"/>
+<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="" x="9.5" y="14.81" smashed="yes" rot="R90">
+<attribute name="NAME" x="10.935" y="18.175" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="11.405" y="14.175" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="27" y="12.5" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="27" y="12.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1805,6 +1841,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="3.797" y="19.47" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="0.368" y="19.47" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
+<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="" x="20.85" y="18.2" smashed="yes">
+<attribute name="NAME" x="18.765" y="17.015" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="20.215" y="16.295" size="1.27" layer="27"/>
+</element>
+<element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="" x="23.2" y="6.8" smashed="yes">
+<attribute name="NAME" x="23.565" y="3.365" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="22.565" y="4.895" size="1.27" layer="27"/>
+</element>
+<element name="PWR" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="27" y="18.2" smashed="yes" rot="R270">
+<attribute name="VALUE" x="26.365" y="16.295" size="1.27" layer="27"/>
+</element>
+<element name="SIG" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="27" y="7" smashed="yes" rot="R270">
+<attribute name="VALUE" x="26.365" y="5.095" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1812,7 +1862,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R2" pad="1"/>
 <contactref element="J1" pad="SLEEVE"/>
 <contactref element="SV1" pad="1"/>
-<polygon width="0.1524" layer="1" isolate="0.25">
+<polygon width="0.254" layer="1" isolate="0.25">
 <vertex x="30" y="0"/>
 <vertex x="30" y="55.8"/>
 <vertex x="0" y="55.8"/>
@@ -1826,61 +1876,60 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <contactref element="LED1" pad="C"/>
 <contactref element="J2" pad="1"/>
+<contactref element="PWR" pad="C"/>
+<contactref element="SIG" pad="C"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC1" pad="5"/>
 <contactref element="Q1" pad="2"/>
 <contactref element="J1" pad="TIP"/>
 <contactref element="SV1" pad="2"/>
-<wire x1="14.33" y1="15.28" x2="14.33" y2="14.47" width="0.254" layer="1"/>
-<wire x1="14.33" y1="14.47" x2="16.6" y2="12.2" width="0.254" layer="1"/>
-<wire x1="20" y1="8.81" x2="17.105" y2="11.705" width="0.254" layer="1"/>
-<wire x1="17.105" y1="11.705" x2="17" y2="11.81" width="0.254" layer="1"/>
-<wire x1="17" y1="11.81" x2="16.61" y2="12.2" width="0.254" layer="1"/>
-<wire x1="16.61" y1="12.2" x2="16.6" y2="12.2" width="0.254" layer="1"/>
+<wire x1="14.83" y1="14.4" x2="14.83" y2="15.93" width="0.254" layer="1"/>
 <via x="6.8" y="53.0058" extent="1-16" drill="0.35"/>
-<wire x1="17" y1="19" x2="14" y2="22" width="0.254" layer="1"/>
-<wire x1="17" y1="19" x2="17" y2="11.81" width="0.254" layer="1"/>
-<wire x1="20" y1="8.81" x2="21.99" y2="8.81" width="0.254" layer="1"/>
-<wire x1="22" y1="8.8" x2="21.99" y2="8.81" width="0.254" layer="1"/>
-<wire x1="27" y1="12.5" x2="25.7" y2="12.5" width="0.254" layer="1"/>
-<wire x1="25.7" y1="12.5" x2="22" y2="8.8" width="0.254" layer="1"/>
 <wire x1="6.8" y1="54.8" x2="6.8" y2="53.0058" width="0.254" layer="16"/>
 <contactref element="R1" pad="2"/>
 <contactref element="J3" pad="1"/>
-<wire x1="20.5" y1="15.65" x2="17.115" y2="11.705" width="0.254" layer="1"/>
-<wire x1="17.115" y1="11.705" x2="17.105" y2="11.705" width="0.254" layer="1"/>
-<wire x1="8.2" y1="22" x2="6.8" y2="23.4" width="0.254" layer="1"/>
-<wire x1="6.8" y1="53.0058" x2="6.8" y2="23.4" width="0.254" layer="1"/>
-<wire x1="14" y1="22" x2="8.2" y2="22" width="0.254" layer="1"/>
-<wire x1="2.4" y1="18.2" x2="4.4" y2="18.2" width="0.254" layer="1"/>
-<wire x1="4.4" y1="18.2" x2="8.2" y2="22" width="0.254" layer="1"/>
+<contactref element="R3" pad="1"/>
+<wire x1="6.8" y1="53.0058" x2="6.8" y2="21.8" width="0.254" layer="1"/>
+<wire x1="6.8" y1="21.8" x2="6.8" y2="18.2" width="0.254" layer="1"/>
+<wire x1="6.8" y1="18.2" x2="2.4" y2="18.2" width="0.254" layer="1"/>
+<wire x1="6.8" y1="21.8" x2="19.65" y2="21.8" width="0.254" layer="1"/>
+<wire x1="20" y1="21.9" x2="19.65" y2="21.8" width="0.254" layer="1"/>
+<wire x1="14.83" y1="14.4" x2="20" y2="14.4" width="0.254" layer="1"/>
+<wire x1="20" y1="8.81" x2="20" y2="12.5" width="0.254" layer="1"/>
+<wire x1="20" y1="12.5" x2="20" y2="14.4" width="0.254" layer="1"/>
+<wire x1="27" y1="12.5" x2="20" y2="12.5" width="0.254" layer="1"/>
+<wire x1="20" y1="14.4" x2="20" y2="18.2" width="0.254" layer="1"/>
+<wire x1="20" y1="18.2" x2="20" y2="21.9" width="0.254" layer="1"/>
 </signal>
 <signal name="PHOTOTRANS">
 <contactref element="R2" pad="2"/>
 <contactref element="Q1" pad="1"/>
 <contactref element="IC1" pad="2"/>
-<wire x1="9.5" y1="20.2" x2="9.5" y2="17.35" width="0.254" layer="1"/>
-<wire x1="13.38" y1="17.87" x2="13.38" y2="20.2" width="0.254" layer="1"/>
-<wire x1="13.38" y1="20.2" x2="9.5" y2="20.2" width="0.254" layer="1"/>
-<via x="9.5" y="20.2" extent="1-16" drill="0.35"/>
+<wire x1="14.18" y1="17.63" x2="14.18" y2="20.2" width="0.254" layer="1"/>
+<wire x1="14.18" y1="20.2" x2="9.5" y2="20.2" width="0.254" layer="1"/>
 <contactref element="J3" pad="2"/>
-<wire x1="6.8" y1="22.9" x2="9.5" y2="20.2" width="0.254" layer="16"/>
-<wire x1="6.8" y1="51.3" x2="6.8" y2="22.9" width="0.254" layer="16"/>
-<wire x1="2.4" y1="15.66" x2="5.46" y2="15.66" width="0.254" layer="1"/>
-<wire x1="7.15" y1="17.35" x2="9.5" y2="17.35" width="0.254" layer="1"/>
-<wire x1="5.46" y1="15.66" x2="7.15" y2="17.35" width="0.254" layer="1"/>
+<wire x1="2.4" y1="15.66" x2="6.8" y2="15.66" width="0.254" layer="1"/>
+<wire x1="6.8" y1="15.66" x2="9.5" y2="15.66" width="0.254" layer="1"/>
+<wire x1="9.5" y1="15.66" x2="9.5" y2="20.2" width="0.254" layer="1"/>
+<via x="6.8" y="15.66" extent="1-16" drill="0.35"/>
+<wire x1="6.8" y1="51.3" x2="6.8" y2="15.66" width="0.254" layer="16"/>
 </signal>
 <signal name="SIGNAL">
 <contactref element="IC1" pad="4"/>
 <contactref element="J1" pad="RSH"/>
 <contactref element="SV1" pad="3"/>
 <wire x1="12.5" y1="8.81" x2="12.5" y2="7.1" width="0.254" layer="1"/>
-<wire x1="13.2" y1="6.4" x2="12.5" y2="7.1" width="0.254" layer="1"/>
-<wire x1="12.5" y1="8.81" x2="12.43" y2="8.88" width="0.254" layer="1"/>
-<wire x1="12.43" y1="8.88" x2="12.43" y2="15.28" width="0.254" layer="1"/>
-<wire x1="27" y1="9.96" x2="23.44" y2="6.4" width="0.254" layer="1"/>
-<wire x1="23.44" y1="6.4" x2="13.2" y2="6.4" width="0.254" layer="1"/>
+<wire x1="12.5" y1="7.1" x2="13.2" y2="6.4" width="0.254" layer="1"/>
+<wire x1="13.53" y1="11.40140625" x2="13.53" y2="15.93" width="0.254" layer="1"/>
+<contactref element="R4" pad="1"/>
+<wire x1="13.2" y1="6.4" x2="21.95" y2="6.4" width="0.254" layer="1"/>
+<wire x1="21.95" y1="6.4" x2="22.35" y2="6.8" width="0.254" layer="1"/>
+<wire x1="22.35" y1="6.8" x2="22.35" y2="7.95" width="0.254" layer="1"/>
+<wire x1="24.36" y1="9.96" x2="27" y2="9.96" width="0.254" layer="1"/>
+<wire x1="22.35" y1="7.95" x2="24.36" y2="9.96" width="0.254" layer="1"/>
+<wire x1="12.5" y1="8.81" x2="12.5" y2="10.37140625" width="0.254" layer="1"/>
+<wire x1="12.5" y1="10.37140625" x2="13.53" y2="11.40140625" width="0.254" layer="1"/>
 </signal>
 <signal name="LEDCATHODE">
 <contactref element="R1" pad="1"/>
@@ -1888,15 +1937,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J2" pad="2"/>
 <wire x1="23.2" y1="54.8" x2="23.2" y2="53.2" width="0.254" layer="16"/>
 <via x="23.2" y="53.2" extent="1-16" drill="0.35"/>
-<wire x1="20.5" y1="17.35" x2="20.5" y2="19.6" width="0.254" layer="1"/>
-<wire x1="20.5" y1="19.6" x2="20.5" y2="21.7" width="0.254" layer="1"/>
-<wire x1="20.5" y1="21.7" x2="23.2" y2="24.4" width="0.254" layer="1"/>
-<wire x1="23.2" y1="24.4" x2="23.2" y2="53.2" width="0.254" layer="1"/>
 <wire x1="2.4" y1="9.94" x2="5.86" y2="13.4" width="0.254" layer="16"/>
 <wire x1="5.86" y1="13.4" x2="15.6" y2="13.4" width="0.254" layer="16"/>
-<wire x1="15.6" y1="13.4" x2="20.5" y2="18.3" width="0.254" layer="16"/>
-<wire x1="20.5" y1="18.3" x2="20.5" y2="19.6" width="0.254" layer="16"/>
-<via x="20.5" y="19.6" extent="1-16" drill="0.35"/>
+<wire x1="23.2" y1="21.9" x2="21.7" y2="21.9" width="0.254" layer="1"/>
+<wire x1="23.2" y1="53.2" x2="23.2" y2="21.9" width="0.254" layer="1"/>
+<via x="23.2" y="21" extent="1-16" drill="0.35"/>
+<wire x1="23.2" y1="21" x2="23.2" y2="21.9" width="0.254" layer="1"/>
+<wire x1="15.6" y1="13.4" x2="23.2" y2="21" width="0.254" layer="16"/>
+</signal>
+<signal name="N$1">
+<contactref element="PWR" pad="A"/>
+<contactref element="R3" pad="2"/>
+<wire x1="21.7" y1="18.2" x2="26.25" y2="18.2" width="0.254" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="SIG" pad="A"/>
+<contactref element="R4" pad="2"/>
+<wire x1="24.05" y1="6.8" x2="24.25" y2="7" width="0.254" layer="1"/>
+<wire x1="24.25" y1="7" x2="26.25" y2="7" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
