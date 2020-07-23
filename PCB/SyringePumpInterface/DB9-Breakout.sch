@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -156,7 +156,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%N (%S.%C%R)" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
@@ -1032,21 +1032,21 @@ D = Direct mounting &lt;p&gt;
 <pinref part="SV1" gate="G$1" pin="15"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="RSH"/>
-<wire x1="33.02" y1="74.93" x2="11.43" y2="74.93" width="0.1524" layer="91"/>
-<label x="11.43" y="74.93" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="RING"/>
+<wire x1="33.02" y1="72.39" x2="11.43" y2="72.39" width="0.1524" layer="91"/>
+<label x="11.43" y="72.39" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="TSH"/>
-<wire x1="33.02" y1="77.47" x2="11.43" y2="77.47" width="0.1524" layer="91"/>
-<label x="11.43" y="77.47" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="6.35" x2="2.54" y2="6.35" width="0.1524" layer="91"/>
 <label x="2.794" y="6.35" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="TIP"/>
+<wire x1="33.02" y1="80.01" x2="11.43" y2="80.01" width="0.1524" layer="91"/>
+<label x="11.176" y="80.01" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
